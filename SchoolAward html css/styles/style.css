@@ -1,0 +1,51 @@
+body {
+    background-image:
+            url("logo.jpg"),
+            url("std.jpg");    
+    background-repeat:no-repeat, no-repeat;
+    background-attachment: fixed;
+    background-size: 50% 100%,  500px 500px;
+    background-position: top left, center right ;
+}
+h1{
+    margin-left: 15%;
+    font-family: bold;
+    color: yellow;
+}
+h2{
+    margin-left: 15%;
+    font-family: bold;
+    color: white;
+}
+p{
+    font-family:bold;
+    margin-left: 15%;
+    color: white;
+    font-size: large;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0%;
+}
+.main li{
+    margin-left: 15%;
+    color: white;
+    display: inline;
+    font-family: bold;
+    font-size: large;
+}
+.navbar li{
+    display: inline;
+    font-family: bold;
+    font-size: large;
+    color: black;
+    padding: 14px 16px;
+}
+button{
+    background-color: yellow;
+    margin-left: 15%;
+}
